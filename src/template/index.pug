@@ -2,8 +2,14 @@ extends _layout/layout.pug
 block main 
 	h2 Trang chủ
 	div.container-fluid
-		div.row.content
-			div.col-xl.red_col (Col 1)
-			div.col-xl.red_col (Col 2)
-			div.col-xl.red_col (Col 3)
-			div.col-xl.red_col (Col 4)
+		div.row.no-gutters
+			div.col.red_col (Col 1)
+			div.col.red_col (Col 2)
+			div.col.order-1.red_col (Col 3)
+			div.col.order-2.red_col (Col 4)
+		div.row.justify-content-center
+			div.col-8.col-md-4.blue_col (Col 1)
+			div.col-6.col-md-4.blue_col (Col 2)
+		div.row.justify-content-between
+			div.col-8.col-md-4.blue_col (Col 1)
+			div.col-6.col-md-4.blue_col (Col 2)
